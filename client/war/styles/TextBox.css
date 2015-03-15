@@ -1,0 +1,7 @@
+.gwt-TextBox {
+  padding: 2px;
+}
+
+.gwt-TextBox-readonly {
+  color: #888;
+}

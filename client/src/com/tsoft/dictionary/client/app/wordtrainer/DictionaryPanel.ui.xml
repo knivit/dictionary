@@ -1,0 +1,31 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+  xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:d='urn:import:com.tsoft.dictionary.client.app.wordtrainer'>
+
+  <ui:style>
+  .panel {
+    padding: 10px;
+  }
+  </ui:style>
+
+  <g:HTMLPanel styleName='{style.panel}'>
+    <div>
+      <b>Dictionary</b>
+    </div>
+
+    <div>
+      <table>
+        <tr>
+          <td>
+            <g:HTML ui:field='dictionaryField'></g:HTML>
+          </td>
+          <td>
+            <g:Button text='Settings' ui:field='settingsButton'/>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </g:HTMLPanel>
+</ui:UiBinder>

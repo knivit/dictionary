@@ -1,0 +1,1000 @@
+able|способный|['eIbl]
+about|около|[q'baut]|
+above|наверху|[q'bAv]|
+accept|принимать|[qk'sept]|
+accord|соответствовать|[q'kO:d]|
+account|счет|[q'kaunt]|
+accountable|ответственный, подотчетный|[q'kauntqbl]|
+ache|боль|[eIk]|
+across|поперек|[q'krOs]|
+act|действие|[xkt]|
+active|активный|['xktIv]|
+actor|актер|['xktq]|
+actress|актриса|['xktrIs]|
+actual|действительный|['xktSuql]|
+add|добавлять|[xd]|
+address|адрес|[q'dres]|
+admit|допускать|[qd'mIt]|
+adopt|усыновлять|[q'dOpt]|
+advance|продвигаться|[qd'vQ:ns]|
+advantage|преимущество|[qd'vQ:ntIdZ]|
+adventure|приключение|[qd'ventSq]|
+affair|дело|[q'fFq]|
+after|после того как|['Q:ftq]|
+again|снова|[q'gen]|
+against|напротив|[q'genst]|
+age|возраст|[eIdZ]|
+agent|агент|['eIdZqnt]|
+ago|тому назад|[q'gqu]|
+agree|соглашаться|[q'gri:]|
+air|воздух|[Fq]|
+all|все|[O:l]|
+allow|позволять|[q'lau]|
+almost|почти|['O:lmqust]|
+alone|одинокий|[q'lqun]|
+along|вдоль по|[q'lON]|
+already|уже|[O:l'redI]|
+also|также|['O:lsqu]|
+although|хотя|[O:l'Dqu]|
+always|всегда|['O:lwqz]|
+among|среди|[q'mAN]|
+amount|величина|[q'maunt]|
+ancient|древний|['eInS(q)nt]|
+and|и|[xnd]|
+animal|животное|['xnImql]|
+another|другой|[q'nADq]|
+answer|ответ|['Q:nsq]|
+any|какой-нибудь|['enI]|
+appear|появляться|[q'pIq]|
+apply|использовать|[q'plaI]|
+appoint|назначать|[q'pOInt]|
+arise|возникать|[q'raIz]|
+arm|рука|[Q:m]|
+army|армия|['Q:mI]|
+around|кругом|[q'raund]|
+arrive|прибывать|[q'raIv]|
+art|искусство|[Q:t]|
+article|статья|['Q:tIkl]|
+as|в качестве, как|[xz]|
+ask|спрашивать|[Q:sk]|
+associate|коллега|[q'squSIeIt]|
+at|у|[xt]|
+attack|нападать|[q'txk]|
+attempt|пытаться|[q'tempt]|
+attention|внимание|[q'tenS(q)n]|
+average|средний|['xvqrIdZ]|
+away|удаленный|[q'weI]|
+baby|ребенок|['beIbI]|
+back|спина, сзади|[bxk]|
+bad|плохой|[bxd]|
+bag|мешок|[bxg]|
+ball|мяч|[bO:l]|
+bank|насыпь, банк|[bxNk]|
+bar|брусок|[bQ:]|
+base|основание|[beIs]|
+battle|сражение|['bxtl]|
+be|быть|[bI]|
+bear|переносить|[bFq]|
+beauty|красота|['bju:tI]|
+because|потому что|[bI'kOz]|
+become|становиться|[bI'kAm]|
+bed|кровать|[bed]|
+before|прежде|[bI'fO:]|
+begin|начинать|[bI'gIn]|
+behind|сзади|[bI'haInd]|
+believe|верить|[bI'li:v]|
+belong|принадлежать|[bI'lON]|
+below|ниже|[bI'lqu]|
+beneath|под|[bI'ni:T]|
+berry|ягода|['berI]|
+beside|рядом|[bI'saId]|
+best|наилучший|[best]|
+between|между|[bI'twi:n]|
+beyond|за пределами|[bI'jOnd]|
+big|большой|[bIg]|
+bill|счет, клюв|[bIl]|
+bird|птица|[bq:d]|
+black|черный|[blxk]|
+blood|кровь|[blAd]|
+blow|удар|[blqu]|
+blue|голубой, синий|[blu:]|
+board|доска|[bO:d]|
+boat|лодка|[bqut]|
+body|тело|['bOdI]|
+book|книга|[buk]|
+both|оба|[bquT]|
+box|коробка|[bOks]|
+boy|мальчик|[bOI]|
+brain|мозг|[breIn]|
+branch|ветвь|[brQ:ntS]|
+bread|хлеб|[bred]|
+break|ломать|[breIk]|
+bridge|мост|[brIdZ]|
+bright|яркий|[braIt]|
+bring|приносить|[brIN]|
+broad|широкий|[brO:d]|
+brother|брат|['brADq]|
+build|строить|[bIld]|
+burn|ожёг|[bq:n]|
+bus|автобус|[bAs]|
+business|дело|['bIzInIs]|
+but|но, однако|[bAt]|
+buy|покупать|[baI]|
+by|рядом|[baI]|
+call|вызов|[kO:l]|
+can|мочь|[kxn]|
+capital|столица, капитал|['kxpItl]|
+captain|капитан|['kxptIn]|
+car|автомобиль|[kQ:]|
+care|забота|[kFq]|
+carry|носить|['kxrI]|
+case|случай|[keIs]|
+castle|замок|['kQ:sl]
+catch|поймать|[kxtS]|
+cause|причина|[kO:z]|
+cent|цент|[sent]|
+centre|центровой игрок|['sentq]|
+certain|точный|['sq:tn]|
+chance|случай|[tSQ:ns]|
+change|изменение|[tSeIndZ]|
+character|характер|['kxrIktq]|
+charge|загрузка|[tSQ:dZ]|
+chief|ведущий|[tSi:f]|
+child|ребенок|[tSaIld]|
+choose|выбирать|[tSu:z]|
+church|церковь|[tSq:tS]|
+circle|круг|['sq:kl]|
+city|город|['sItI]|
+claim|требование|[kleIm]|
+class|класс|[klQ:s]|
+clean|чистый|[kli:n]|
+clear|ясный|[klIq]|
+close|закрывать|[klqus]|
+cloud|облако|[klaud]|
+coal|уголь|[kqul]|
+coast|побережье|[kqust]|
+coin|монета|[kOIn]|
+cold|холодный|[kquld]|
+college|колледж|['kOlIdZ]|
+colony|колония|['kOlqnI]|
+colour|цвет|['kAlq]|
+come|приходить|[kAm]|
+command|командовать|[kq'mQ:nd]|
+committee|комитет|[,kOmI'ti:]|
+common|общий|['kOmqn]|
+company|компания|['kAmpqnI]|
+complete|полный|[kqm'pli:t]|
+concern|иметь отношение|[kqn'sq:n]|
+condition|условие|[kqn'dISqn]|
+consider|рассматривать|[kqn'sIdq]|
+contain|вмещать|[kqn'teIn]|
+content|довольствоваться|['kOntent]|
+continue|продолжать|[kqn'tInju(:)]|
+control|надзор|[kqn'trqul]|
+cook|повар|[kuk]|
+corn|кукуруза|[kO:n]|
+cost|цена|[kOst]|
+cotton|хлопок|['kOtn]|
+could|мог|[kud]|
+council|совет|['kaunsl]|
+count|счет|[kaunt]|
+country|страна|['kAntrI]|
+course|курс|[kO:s]|
+court|двор, корт|[kO:t]|
+cover|крышка|['kAvq]|
+cross|крест|[krOs]|
+crowd|толпа|[kraud]|
+crown|темя|[kraun]|
+cry|крик|[kraI]|
+cup|чашка|[kAp]|
+current|течение|['kArqnt]|
+cut|отрезанный|[kAt]|
+danger|опасность|['deIndZq]|
+dark|темный|[dQ:k]|
+date|дата|[deIt]|
+daughter|дочь|['dO:tq]|
+day|день|[deI]|
+dead|мертвый|[ded]|
+deal|иметь дело|[di:l]|
+dear|дорогой, милый|[dIq]|
+decide|решать|[dI'saId]|
+declare|объявлять|[dI'klFq]|
+deep|глубокий|[di:p]|
+defeat|поражение|[dI'fi:t]|
+degree|степень|[dI'gri:]|
+demand|требование|[dI'mQ:nd]|
+department|отдел|[dI'pQ:tmqnt]|
+depend|зависеть|[dI'pend]|
+describe|описывать|[dIs'kraIb]|
+desert|пустыня|[dI'zq:t]|
+desire|жажда, страсть|[dI'zaIq]|
+destroy|разрушать|[dIs'trOI]|
+detail|подробность|['di:teIl]|
+determine|определять|[dI'tq:mIn]|
+develop|развивать|[dI'velqp]|
+die|умирать|[daI]|
+difference|различие|['dIfrqns]|
+difficult|трудный|['dIfIkqlt]|
+direct|прямой|[dI'rekt]|
+discover|делать открытия|[dIs'kAvq]|
+disease|болезнь|[dI'zi:z]|
+distance|расстояние|['dIstqns]|
+distinguish|различать|[dIs'tINgwIS]|
+district|район|['dIstrIkt]|
+divide|делить|[dI'vaId]|
+do|делать|[du:]|
+doctor|врач|['dOktq]|
+dog|собака|[dOg]|
+dollar|доллар|['dOlq]|
+door|дверь|[dO:]|
+doubt|сомнение|[daut]|
+down|вниз|[daun]|
+draw|чертить|[drO:]|
+dream|видеть сны|[dri:m]|
+dress|платье|[dres]|
+drink|питьё|[drINk]|
+drive|ехать|[draIv]|
+drop|капля|[drOp]|
+dry|сухой|[draI]|
+due|должный|[dju:]|
+duty|обязанность, долг|['dZu:tI]|
+each|каждый, всякий|[i:tS]|
+ear|ухо|[Iq]|
+early|ранний|['q:lI]|
+earth|земля|[q:T]|
+east|восток|[i:st]|
+easy|легкий|['i:zI]|
+eat|есть|[i:t]|
+effect|эффект|[I'fekt]|
+efficient|производительный|[I'fISqnt]|
+effort|усилие|['efqt]|
+egg|яйцо|[eg]|
+eight|восемь|[eIt]|
+either|один из двух|['aIDq]|
+elect|выбирать|[I'lekt]|
+eleven|одиннадцать|[I'levn]|
+else|еще|[els]|
+Empire|империя|['empaIrq]|
+employ|работа по найму|[Im'plOI]|
+end|конец|[end]|
+enemy|враг|['enImI]|
+English|английский|['INglIS]|
+enjoy|наслаждаться|[In'dZOI]|
+enough|достаточно|[I'nAf]|
+enter|входить|['entq]|
+equal|равный|['i:kwql]|
+escape|бегство|[Is'keIp]|
+even|даже|['i:vqn]|
+evening|вечер|['i:vnIN]|
+event|событие|[I'vent]|
+ever|всегда|['evq]|
+every|каждый|['evrI]|
+example|пример|[Ig'zQ:mpl]|
+except|исключать|[Ik'sept]|
+exchange|обмен|[Iks'tSeIndZ]|
+exercise|упражнение|['eksqsaIz]|
+exist|существовать|[Ig'zIst]|
+expect|ожидать|[Iks'pekt]|
+expense|затрата|[Iks'pens]|
+experience|опыт|[Iks'pIqrIqns]|
+experiment|эксперимент|[Iks'perIment]|
+explain|объяснять|[Iks'pleIn]|
+express|выражать|[Iks'pres]|
+extend|простирать|[Iks'tend]|
+eye|глаз|[aI]|
+face|лицо|[feIs]|
+fact|действительность|[fxkt]|
+factory|завод|['fxktqrI]|
+fail|потерпеть неудачу|[feIl]|
+fair|ярмарка, честный|[fFq]|
+faith|вера|[feIT]|
+fall|падение|[fO:l]|
+familiar|хорошо знакомый|[fq'mIljq]|
+family|семья|['fxmIlI]|
+famous|известный|['feImqs]|
+far|далеко|[fQ:]|
+farm|ферма|[fQ:m]|
+fast|скорый|[fQ:st]|
+father|отец|['fQ:Dq]|
+favour|благоприятствовать|['feIvq]|
+fear|страх|[fIq]|
+feel|чувствовать|[fi:l]|
+fellow|собрат|['felqu]|
+female|женский|['fi:meIl]|
+few|немного|[fju:]|
+field|поле|[fi:ld]|
+fight|борьба|[faIt]|
+figure|фигура|['fIgq]|
+fill|пломбировать|[fIl]|
+find|находить|[faInd]|
+fine|тонкий|[faIn]|
+finish|заканчивать|['fInIS]|
+fire|огонь|['faIq]|
+first|первый|[fq:st]|
+fish|рыба|[fIS]|
+fit|пригодный|[fIt]|
+five|пять|[faIv]|
+fix|укреплять|[fIks]|
+flame|пламя|[fleIm]|
+floor|пол, настил|[flO:]|
+flow|течение|[flqu]|
+flower|цветок|['flauq]|
+fly|муха|[flaI]|
+follow|следовать за|['fOlqu]|
+food|пища|[fu:d]|
+for|для, ради|[fO:]|
+force|сила|[fO:s]|
+foreign|иностранный|['fOrIn]|
+forest|лес|['fOrIst]|
+forget|забывать|[fq'get]|
+fork|вилка|[fO:k]|
+form|форма|[fO:m]|
+former|шаблон, бывший|['fO:mq]|
+forth|четвертый|[fO:T]|
+fortune|счастье, случаться|['fO:tSqn]|
+four|четыре|[fO:]|
+free|свободный|[fri:]|
+fresh|свежий|[freS]|
+Friday|пятница|['fraIdI]|
+friend|друг|[frend]|
+from|из, от|[frOm]|
+front|передний|[frAnt]|
+fruit|фрукт|[fru:t]|
+full|полный|[ful]|
+furnish|снабжать|['fq:nIS]|
+future|будущий|['fju:tSq]|
+gain|доход, приращивать|[geIn]|
+game|игра|[geIm]|
+garden|сад|['gQ:dn]|
+gas|газ|[gxs]|
+gate|ворота|[geIt]|
+gather|собираться|['gxDq]|
+general|главный|['dZenqrql]|
+gentle|нежный|['dZentl]|
+get|получать|[get]|
+gift|подарок|[gIft]|
+girl|девочка|[gq:l]|
+give|давать|[gIv]|
+glad|довольный|[glxd]|
+glass|стекло|[glQ:s]|
+go|идти|[gquz]|
+god|бог|[gOd]|
+gold|золото|[gquld]|
+good|хороший|[gud]|
+grass|трава|[grQ:s]|
+great|великий|[greIt]|
+green|зеленый|[gri:n]|
+ground|земля|[graund]|
+group|группа|[gru:p]|
+grow|расти|[grqu]|
+half|половина|[hQ:f]|
+hand|кисть, ладонь|[hxnd]|
+handle|рукоятка|['hxndl]|
+hang|вешать|[hxN]|
+happen|случаться|['hxpqn]|
+happy|счастливый|['hxpI]|
+hard|жесткий|[hQ:d]|
+hardly|едва|['hQ:dlI]|
+have|иметь|[hxv]|
+he|он|[hi:-]|
+head|голова|[hed]|
+hear|слышать|[hIq]|
+heart|сердце|[hQ:t]|
+heat|жара|[hi:t]|
+heaven|небеса|['hevn]|
+heavy|тяжелый|['hevI]|
+help|помощь|[help]|
+here|здесь|[hIq]|
+hide|прятаться|[haId]|
+high|высокий|[haI]|
+hill|холм|[hIl]|
+history|история|['hIstqrI]|
+hold|держать|[hquld]|
+home|дом|[hqum]|
+honour|честь|['Onq]|
+hope|надежда|[hqup]|
+horse|лошадь|[hO:s]|
+hospital|больница|['hOspItl]|
+host|хозяин|[hqust]|
+hot|горячий|[hOt]|
+hotel|гостиница, отель|[hqu'tel]|
+hour|час|['auq]|
+house|дом, жилище|[haus]|
+how|как|[hau]|
+however|как бы ни|[hau'evq]|
+human|человеческий|['hju:mqn]|
+hundred|сто|['hAndrqd]|
+hunger|голод|['hANgq]|
+husband|муж|['hAzbqnd]|
+ice|лед|[aIs]|
+idea|идея|[aI'dIq]|
+if|если|[If]|
+ill|больной|[Il]|
+important|важный|[Im'pO:tqnt]|
+in|в|[In]|
+inch|дюйм|[IntS]|
+include|включать|[In'klu:d]|
+increase|прирост|['Inkri:s]|
+indeed|действительно|[In'di:d]|
+independent|независимый|[,IndI'pendqnt]|
+industry|промышленность|['IndqstrI]|
+influence|влияние|['Influqns]|
+instead|вместо|[In'sted]|
+interest|интерес|['IntrIst]|
+into|в|['Intu]|
+introduce|представлять|[,Intrq'dju:s]|
+iron|железо|['aIqn]|
+it|это|[It]|
+join|соединение|[dZOIn]|
+joint|совместный|[dZOInt]|
+jointed|сочлененный, шарнирно|['dZOInted]|
+joy|радость|[dZOI]|
+judge|судья|['dZAdZ]|
+juice|сок|[dZu:s]|
+jump|прыжок|[dZAmp]|
+just|справедливый, как раз|[dZAst]|
+justice|правосудие|['dZAstIs]|
+keep|держать, хранить|[ki:p]|
+key|ключ|[ki:]|
+kill|убивать|[kIl]|
+kind|добрый|[kaInd]|
+king|король|[kIN]|
+know|знать|[nqu]|
+lack|недостаток|[lxk]|
+lady|леди|['leIdI]|
+lake|озеро|[leIk]|
+land|земля|[lxnd]|
+language|язык|['lxNgwIdZ]|
+large|большой|[lQ:dZ]|
+last|последний|[lQ:st]|
+late|поздний|[leIt]|
+latter|более поздний|['lxtq]|
+laugh|смех|[lQ:f]|
+laughter|смех|['lQ:ftq]|
+law|закон|[lO:]|
+lay|стлать|[leI]|
+lead|вести|[li:d]|
+learn|учить|[lq:n]|
+leave|уезжать|[li:v]|
+left|левый|[left]|
+length|длина|[leNT]|
+less|меньший|[les]|
+let|пусть|[let]|
+letter|буква, письмо|['letq]|
+level|уровень|['levl]|
+library|библиотека|['laIbrqrI]|
+lie|пережидать|[laI]|
+life|жизнь|[laIf]|
+lift|поднятие|[lIft]|
+light|светлый|[laIt]|
+like|похожий|[laIk]|
+likely|вероятно|['laIklI]|
+limit|предел|['lImIt]|
+line|линия|[laIn]|
+lip|губа|[lIp]|
+listen|слушать|['lIsn]|
+literature|литература|['lItqrItSq]|
+little|маленький|['lItl]|
+live|боевой|[laIv]|
+local|местный|['lqukql]|
+long|длинный|[lON]|
+look|взгляд, смотреть|[luk]|
+lord|господин|[lO:d]|
+lose|терять|[lu:z]|
+loss|потеря|[lOs]|
+love|любовь|[lAv]|
+low|низкий|[lqu]|
+machine|механизм|[mq'Si:n]|
+main|главный|[meIn]|
+make|сделать|[meIk]|
+man|человек|[mxn]|
+manner|манера|['mxnq]|
+manufacture|производство|[,mxnju'fxktSq]|
+many|много|['menI]|
+mark|метка|[mQ:k]|
+market|рынок|['mQ:kIt]|
+marry|жениться|['mxrI]|
+mass|масса|[mxs]|
+master|хозяин|['mQ:stq]|
+material|материальный|[mq'tIqrIql]|
+matter|материя|['mxtq]|
+maybe|возможно|['meIbi:]|
+mean|значить|[mi:n]|
+measure|мера|['meZq]|
+meat|мясо|[mi:t]|
+meet|встречать|[mi:t]|
+member|участник|['membq]|
+memory|память|['memqrI]|
+mention|упоминание|['menSqn]|
+mere|простой|[mIq]|
+metal|металл|['metl]|
+middle|середина|['mIdl]|
+might|мощь|[maIt]|
+mile|миля|[maIl]|
+milk|молоко|[mIlk]|
+million|миллион|['mIljqn]|
+mind|разум|[maInd]|
+miner|шахтер|['maInq]|
+minister|министр|['mInIstq]|
+minute|минута|[maI'nju:t]|
+miss|пропускать|[mIs]|
+mister|мистер|['mIstq]|
+modern|современный|['mOdqn]|
+moment|момент|['mqumqnt]|
+Monday|понедельник|['mAndI]|
+money|деньги|['mAnI]|
+month|месяц|[mAnT]|
+moon|луна|[mu:n]|
+moral|мораль|['mOrql]|
+more|больше|[mO:]|
+moreover|кроме того|[mO:'rquvq]|
+morning|утро|['mO:nIN]|
+most|наибольший|[mqust]|
+mother|мать|['mADq]|
+motor|двигатель|['mqutq]|
+mountain|гора|['mauntIn]|
+mouth|рот|[mauT]|
+move|перемещение|[mu:v]|
+Mrs|миссис, госпожа|['mIsIz]|
+much|многое, очень|[mAtS]|
+music|музыка|['mju:zIk]|
+must|нeoбxoдимocть|[mAst]|
+name|имя|[neIm]|
+nation|нация|['neISqn]|
+native|родной|['neItIv]|
+nature|природа|['neItSq]|
+near|около|[nIq]|
+necessary|нужный|['nesIsqrI]|
+necessity|необходимость|[nI'sesItI]|
+need|нужда|[ni:d]|
+neighbour|сосед|['neIbq]|
+neither|никакой, также не|['naIDq]|
+never|никогда|['nevq]|
+new|новый|[nju:]|
+news|новости|[nju:z]|
+newspaper|газета|['nju:s,peIpq]|
+next|следующий|[nekst]|
+night|ночь|[naIt]|
+nine|девять|[naIn]|
+no|нет|[nquz]|
+noble|благородный|['nqubl]|
+none|никто|[nAn]|
+nor|также не|[nO:-]|
+north|север|[nO:T]|
+not|не|[nOt]|
+note|заметка|[nqut]|
+notice|предупреждение|['nqutIs]|
+now|сейчас|[nau]|
+number|число|['nAmbq]|
+numerical|цифровой|[nju(:)'merIkql]|
+numerous|многочисленный|['nju:mqrqs]|
+object|предмет, объект|['ObdZIkt]|
+observe|наблюдать|[qb'zq:v]|
+occasion|случай|[q'keIZqn]|
+of|от|[Ov]|
+off|удалиться|[Of]|
+offer|предлагать|['Ofq]|
+office|контора|['OfIs]|
+official|официальный, чиновник|[q'fISql]|
+often|часто|['Ofn]|
+oh|восклицание О!|[qu]|
+oil|нефть, масло|[OIl]|
+old|старый|[quld]|
+on|на|[On]|
+once|однажды|[wAns]|
+one|один|[wAn]|
+only|только|['qunlI]|
+open|открытый|['qupqn]|
+operate|оперировать|['OpqreIt]|
+opinion|мнение|[q'pInjqn]|
+opportunity|удобный случай|[,Opq'tju:nItI]|
+or|или|[O:]|
+order|порядок, заказ|['O:dq]|
+ordinary|обыкновенный|['O:dnrI]|
+organize|организовать|['O:gqnaIz]|
+other|другой|['ADq]|
+otherwise|иначе|['ADqwaIz]|
+ought|следует|[O:T]|
+out|вне|[aut-]|
+over|над|['quvq-]|
+owe|быть должным|[qu]|
+own|собственный|[qun]|
+page|страница|[peIdZ]|
+paint|краска, рисунок|[peInt]|
+paper|бумага|['peIpq]|
+parent|родитель|['pFqrqnt]|
+part|часть|[pQ:t]|
+particular|особенный|[pq'tIkjulq]|
+party|партия, вечеринка|['pQ:tI]|
+pass|проходить|[pQ:s]|
+past|прошлый|[pQ:st]|
+pay|платить|[peI]|
+peace|мир|[pi:s]|
+people|люди|['pi:pl]|
+per|на|[pq:]|
+perhaps|может быть|[pq'hxps]|
+permit|разрешать|['pq:mIt]|
+person|личность|['pq:sn]|
+pet|домашнее животное|[pet]|
+picture|картина|['pIktSq]|
+piece|кусок|[pi:s]|
+place|место|[pleIs]|
+plain|равнина, ясный|[pleIn]|
+plan|план|[plxn]|
+plant|растение, завод|[plQ:nt]|
+play|играть|[pleI]|
+please|пожалуйста|[pli:z]|
+point|место, точка|[pOInt]|
+political|политический|[pq'lItIkql]|
+poor|бедный|[puq]|
+popular|народный, популярный|['pOpjulq]|
+population|народонаселение|[,pOpju'leISqn]|
+position|позиция|[pq'zISqn]|
+possess|обладать|[pq'zes]|
+possible|возможный|['pOsqbl]|
+post|столб|[pqust]|
+pound|фунт, загон, колотить|[paund]|
+poverty|бедность|['pOvqtI]|
+power|сила, энергия, мощь|['pauq]|
+prepare|готовить|[prI'pFq]|
+present|теперешний|[prI'zent]|
+president|президент|['prezIdqnt]|
+press|надавливать, пресса|[pres]|
+pressure|давление|['preSq]|
+pretty|милый, довольно|['prItI]|
+prevent|предотвращать|[prI'vent]|
+price|цена|[praIs]|
+private|личный|['praIvIt]|
+problem|проблема|['prOblqm]|
+produce|изделие|['prOdju:s]|
+product|продукт|['prOdAkt]|
+profit|польза|['prOfIt]|
+progress|прогресс|['prqugrqs]|
+promise|обещание|['prOmIs]|
+proof|непроницаемый|[pru:f]|
+proper|присущий, надлежащий|['prOpq]|
+property|свойство|['prOpqtI]|
+propose|предлагать|[prq'pquz]|
+protect|защищать|[prq'tekt]|
+prove|доказывать|[pru:v]|
+provide|обеспечивать|[prq'vaId]|
+provision|провизия|[prq'vIZqn]|
+public|общественный|['pAblIk]|
+pull|тяга|[pul]|
+purpose|цель|['pq:pqs]|
+put|класть|[put]|
+quality|качество|['kwOlItI]|
+quantity|количество|['kwOntItI]|
+quarter|четверть|['kwO:tq]|
+queen|королева|[kwi:n]|
+question|вопрос|['kwestSqn]|
+quite|вполне|[kwaIt]|
+race|гонка, раса|[reIs]|
+rain|дождь|[reIn]|
+raise|поднимать|[reIz]|
+rank|ранг|[rxNk]|
+rate|пропорция|[reIt]|
+rather|скорее, весьма|['rQ:Dq]|
+reach|достигать|[ri:tS]|
+read|грамотный|[ri:d]|
+ready|готовый|['redI]|
+real|действительный|[reI'Q:l]|
+realise|понять|['rIqlaIz]|
+really|действительно|['rIqlI]|
+reason|разум, смысл, причина|['ri:zn]|
+receipt|квитанция, рецепт|[rI'si:t]|
+receive|принимать|[rI'si:v]|
+recent|недавний|['ri:snt]|
+recognize|распознавать|['rekqgnaIz]|
+record|запись|[rI'kO:d]|
+red|красные|[red]|
+reduce|уменьшать|[rI'dju:s]|
+refuse|отказывать|['ri:'fju:z]|
+regard|внимание|[rI'gQ:d]|
+relation|отношение|[rI'leISqn]|
+relative|родственный|['relqtIv]|
+religion|религия|[rI'lIdZqn]|
+remain|оставаться|[rI'meIn]|
+remark|замечание|['rI'mQ:k]|
+remember|помнить|[rI'membq]|
+reply|отвечать|[rI'plaI]|
+report|доклад|[rI'pO:t]|
+represent|представлять|[,reprI'zent]|
+republic|республика|[rI'pAblIk]|
+reserve|резерв|[rI'zq:v]|
+respect|уважение|[rIs'pekt]|
+rest|отдых|[rest]|
+result|результат|[rI'zAlt]|
+return|возвращаться|[rI'tq:n]|
+rich|богатый|[rItS]|
+ride|ехать верхом|[raId]|
+right|правильный|[raIt]|
+ring|кольцо|[rIN]|
+rise|подниматься|[raIz]|
+river|река|['rIvq]|
+road|дорога|[rqud]|
+rock|скала, качаться|[rOk]|
+roll|свёрток, вращение|[rqul]|
+room|комната|[ru:m]|
+rough|грубый|[rAf]|
+round|круглый|[raund]|
+royal|королевский|['rOIql]|
+rule|правило|[ru:l]|
+run|бег|[rAn]|
+safe|невредимый|[seIf]|
+sail|парус|[seIl]|
+sale|продажа|[seIl]|
+salt|соль|[sO:lt]|
+same|одинаковый|[seIm]|
+Saturday|суббота|['sxtqdI]|
+save|спасать|[seIv]|
+say|сказать|[seI]|
+scarce|скудный|[skFqs]|
+scene|сцена|[si:n]|
+school|школа|[sku:l]|
+science|наука|['saIqns]|
+sea|море|[si:]|
+season|сезон, время года|['si:zn]|
+seat|сиденье|[si:t]|
+second|второй|['sekqnd]|
+secret|секретный|['si:krIt]|
+secretary|секретарь|['sekrqtrI]|
+see|видеть|[si:]|
+seem|казаться|[si:m]|
+sell|продать|[sel]|
+send|посылать|[send]|
+sense|чувство|[sens]|
+sensitive|чувствительный|['sensItIv]|
+separate|отдельный|['sepqreIt]|
+serious|серьёзный|['sIqrIqs]|
+serve|служить|[sq:v]|
+service|служба|['sq:vIs]|
+set|комплект, установка|[set]|
+settle|решать, поселяться|['setl]|
+seven|семь|['sevn]|
+several|несколько, различный|['sevrql]|
+shadow|тень|['Sxdqu]|
+shake|встряска|[SeIk]|
+shall|образование будущего времени|[Sxl]|
+shape|форма|[SeIp]|
+share|делить, доля|[SFq]|
+she|она|[Si:-]|
+shine|сиять|[SaIn]|
+ship|корабль|[SIp]|
+shoot|побег|[Su:t]|
+shore|берег|[SO:]|
+short|короткий|[SO:t]|
+should|следует|[Sud]|
+shoulder|плечо|['Squldq]|
+show|показывать, шоу|[Squ]|
+side|сторона|[saId]|
+sight|зрение|[saIt]|
+sign|знак|[saIn]|
+silence|тишина|['saIlqns]|
+silver|серебро|['sIlvq]|
+simple|простой|['sImpl]|
+since|с тех пор|[sIns]|
+sing|петь|[sIN]|
+single|одинокий, холостой|['sINLgl]|
+sir|сэр|[sq:]|
+sister|сестра|['sIstq]|
+sit|сидеть|[sIt]|
+situation|ситуация|[,sItju'eISqn]|
+six|шесть|[sIks]|
+size|размер|[saIz]|
+sky|небо|[skaI]|
+sleep|сон|[sli:p]|
+slow|медленный|[slqu]|
+small|маленький|[smO:l]|
+smell|запах|[smel]|
+smile|улыбка|[smaIl]|
+smoke|дым, курение|[smquk]|
+snow|снег|[snqu]|
+so|так|[squ]|
+social|социальный|['squSql]|
+society|общество|[sq'saIqtI]|
+soft|мягкий|[sOft]|
+soldier|солдат|['squldZq]|
+some|некоторый|[sAm]|
+son|сын|[sAn]|
+soon|вскоре|[su:n]|
+sort|сорт, вид|[sO:t]|
+soul|душа|[squl]|
+sound|звук|[saund]|
+south|юг|[sauT]|
+space|пространство, космос|[speIs]|
+speak|говорить|[spi:k]|
+special|специальный|['speSql]|
+speed|скорость|[spi:d]|
+spend|тратить|[spend]|
+spirit|душа|['spIrIt]|
+spite|злость|[spaIt]|
+spot|пятно|[spOt]|
+spread|распространять|[spred]|
+spring|весна, пружина|[sprIN]|
+square|квадрат, сквер, площадь|[skwFq]|
+stage|сцена|[steIdZ]|
+stand|стоять|[stxnd]|
+standard|стандартный|['stxndqd]|
+star|звезда|[stQ:]|
+start|начало|[stQ:t]|
+state|штат|[steIt]|
+station|станция|['steISqn]|
+stay|оставаться|[steI]|
+steel|сталь|[sti:l]|
+step|шаг|[step]|
+still|тихий|[stIl]|
+stock|главный ствол, фонд|[stOk]|
+stone|камень|[stqun]|
+stop|остановка, перерыв|[stOp]|
+store|запас|[stO:]|
+story|рассказ|['stO:rI]|
+strange|странный|[streIndZ]|
+stream|поток|[stri:m]|
+street|улица|[stri:t]|
+strength|сила|[streNT]|
+strike|ударять|[straIk]|
+strong|сильный|[strON]|
+struggle|борьба|['strAgl]|
+student|студент|['stju:dqnt]|
+study|изучать|['stAdI]|
+subject|тема, сюжет|['sAbdZIkt]|
+substance|вещество, существо|['sAbstqns]|
+succeed|достигнуть цели|[sqk'si:d]|
+such|такой|[sAtS]|
+suffer|страдать|['sAfq]|
+suggest|предлагать|[sq'dZest]|
+summer|лето|['sAmq]|
+sun|солнце|[sAn]|
+Sunday|воскресенье|['sAndI]|
+supply|гибко|[sq'plaI]|
+support|поддержка|[sq'pO:t]|
+suppose|полагать|[sq'pquz]|
+sure|уверенный|[Suq]|
+surface|поверхность|['sq:fIs]|
+surprise|удивление|[sq'praIz]|
+surround|окружать|[sq'raund]|
+sweet|сладкий|[swi:t]|
+sword|меч|[sO:d]|
+system|система|['sIstIm]|
+table|стол|['teIbl]|
+take|брать|[teIk]|
+talk|разговор|[tO:k]|
+tax|налог|[txks]|
+teach|учить|[ti:tS]|
+tear|дыра, рвать|[tFq]|
+tell|рассказать|[tel]|
+temple|храм, висок|['templ]|
+ten|десять|[ten]|
+term|срок, семестр|[tq:m]|
+test|проверка|[test]|
+than|чем|[Dxn]|
+the|определенный артикль|[Di:]|
+then|тогда|[Den]|
+there|там|[DFq]|
+therefore|поэтому|['DFqfO:]|
+they|они|[DeI]|
+thing|вещь|[TIN]|
+think|думать|[TINk]|
+thirteen|тринадцать|['Tq:'ti:n]|
+thirty|тридцать|['Tq:tI]|
+this|этот|[DIs]|
+though|хотя, несмотря на|[Dqu]|
+thousand|тысяча|['Tauzqnd]|
+three|три|[Tri:]|
+through|через|[Tru:]|
+throw|бросать|[Trqu]|
+Thursday|четверг|['Tq:zdI]|
+thus|таким образом|[DAs]|
+till|до|[tIl]|
+time|время|[taIm]|
+to|к|[tu:]|
+today|сегодня|[tq'deI]|
+together|вместе|[tq'geDq]|
+ton|тонна|[tO:N]|
+too|очень, также|[tu:]|
+top|верхушка|[tOp]|
+total|итог|['tqutl]|
+touch|прикосновение|[tAtS]|
+toward|грядущий, предстоящий|[tq'wO:d]|
+town|город|[taun]|
+trade|торговля|[treId]|
+train|поезд|[treIn]|
+travel|путешествие|['trxvl]|
+tree|дерево|[tri:]|
+trouble|трудность|['trAbl]|
+true|истинный|[tru:]|
+trust|вера|[trAst]|
+try|стараться|[traI]|
+Tuesday|вторник|['tju:zdI]|
+turn|поворот|[tq:n]|
+twelve|двенадцать|[twelv]|
+twenty|двадцать|['twentI]|
+two|два|[tu:]|
+type|тип, печатать|[taIp]|
+under|под|['Andq]|
+understand|понимать|[,Andq'stxnd]|
+union|союз|['ju:njqn]|
+unite|объединять|[ju:'naIt]|
+university|университет|[,ju:nI'vq:sItI]|
+unless|пока не|[qn'les]|
+until|пока|[qn'tIl]|
+up|вверх|[Ap]|
+upon|на поверхности|[q'pOn]|
+use|использование|[ju:z]|
+usual|обычный|['ju:Zuql]|
+valley|долина|['vxlI]|
+value|ценность, величина|['vxlju:]|
+variety|разнообразие|[vq'raIqtI]|
+various|разнообразный|['vFqrIqs]|
+very|очень|['verI]|
+vessel|сосуд, судно|['vesl]|
+victory|победа|['vIktqrI]|
+view|вид|[vju:]|
+village|деревня|['vIlIdZ]|
+virtue|добродетель|['vq:tju:]|
+visit|визит|['vIzIt]|
+voice|голос|[vOIs]|
+vote|голосование|[vqut]|
+wage|заработная плата|[weIdZ]|
+wait|ждать|[weIt]|
+walk|прогулка|[wO:k]|
+wall|стена|[wO:l]|
+want|недостаток, хотеть|[wOnt]|
+war|война|[wO:]|
+watch|часы|[wOtS]|
+water|вода|['wO:tq]|
+wave|волна|[weIv]|
+way|путь|[weI]|
+we|мы|[wi:]|
+wealth|богатство|[welT]|
+wear|носить|[wFq]|
+Wednesday|среда|['wenzdI]|
+week|неделя|[wi:k]|
+welcome|добро пожаловать!|['welkqm]|
+well|хорошо|[wel]|
+west|запад|[west]|
+western|западный|['westqn]|
+what|какой|[wOt]|
+when|когда|[wen]|
+where|где|[wFq]|
+whether|ли|['weDq]|
+which|который|[wItS]|
+while|пока|[waIl]|
+white|белый|[waIt]|
+who|кто|[hu:]|
+whole|целое|[hqul]|
+why|почему|[waI]|
+wide|широкий|[waId]|
+wife|жена|[waIf]|
+wild|дикий|[waIld]|
+will|желать|[wIl]|
+win|выиграть|[wIn]|
+wind|ветер|[waInd]|
+window|окно, витрина|['wIndqu]|
+wine|вино|[waIn]|
+winter|зима|['wIntq]|
+wise|мудрый|[waIz]|
+wish|желать|[wIS]|
+with|с|[wID]|
+within|внутри|[wI'DIn]|
+without|без|[wI'Daut]|
+woman|женщина|['wumqn]|
+wonder|удивляться|['wAndq]|
+wood|дерево|[wud]|
+word|слово|[wq:d]|
+work|работа|[wq:k]|
+world|мир|[wq:ld]|
+worth|цена стоимость, ценный достойный|[wq:T]|
+would|бы|[wud]|
+wound|рана|[waund]|
+write|писать|[raIt]|
+wrong|неправильный|[rON]|
+year|год|[jq:]|
+yes|да|[jes]|
+yesterday|вчера|['jestqdI]|
+yet|пока, еще|[jet]|
+yield|урожай, доходность|[ji:ld]|
+you|ты, вы|[ju:d]|
+young|молодой|[jAN]|
+youth|молодость|[ju:T]|

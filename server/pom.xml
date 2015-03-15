@@ -1,0 +1,150 @@
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.tsoft.dictionary</groupId>
+        <artifactId>dictionary</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>server-parent-pom</artifactId>
+    <packaging>pom</packaging>
+
+    <name>dictionary-server-pom</name>
+
+    <properties>
+        <gae.version>1.3.6</gae.version>
+
+        <datanucleus.version>1.1.5</datanucleus.version>
+        <datanucleus.appengine.version>1.0.7.final</datanucleus.appengine.version>
+
+        <geronimo.version>1.1.1</geronimo.version>
+
+        <jdo2.api.version>2.3-eb</jdo2.api.version>
+    </properties>
+
+    <modules>
+        <module>dictionary-server</module>
+        <module>dictionary-api</module>
+        <module>dictionary-util</module>
+        <module>gwt-helper</module>
+    </modules>
+
+    <dependencies>
+        <!-- ${GWT_HOME} -->
+        <dependency>
+            <groupId>com.google.gwt</groupId>
+            <artifactId>gwt-servlet</artifactId>
+            <version>${gwt.version}</version>
+        </dependency>
+
+        <!-- ${GWT_HOME} -->
+        <dependency>
+            <groupId>com.google.gwt</groupId>
+            <artifactId>gwt-user</artifactId>
+            <version>${gwt.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- ${GAE_HOME}/lib/user -->
+        <dependency>
+            <groupId>com.google.appengine</groupId>
+            <artifactId>appengine-api-1.0-sdk</artifactId>
+            <version>${gae.version}</version>
+        </dependency>
+
+        <!-- ${GAE_HOME}/lib/user -->
+        <dependency>
+            <groupId>com.google.appengine</groupId>
+            <artifactId>appengine-api-labs</artifactId>
+            <version>${gae.version}</version>
+        </dependency>
+
+        <!-- ${GAE_HOME}/lib/user/orm -->
+        <dependency>
+            <groupId>com.google.appengine.orm</groupId>
+            <artifactId>datanucleus-appengine</artifactId>
+            <version>${datanucleus.appengine.version}</version>
+        </dependency>
+
+        <!-- ${GAE_HOME}/lib/user/orm -->
+        <dependency>
+            <groupId>org.datanucleus</groupId>
+            <artifactId>datanucleus-core</artifactId>
+            <version>${datanucleus.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.transaction</groupId>
+                    <artifactId>transaction-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- ${GAE_HOME}/lib/user/orm -->
+        <dependency>
+            <groupId>org.datanucleus</groupId>
+            <artifactId>datanucleus-jpa</artifactId>
+            <version>${datanucleus.version}</version>
+        </dependency>
+
+        <!-- ${GAE_HOME}/lib/user/orm -->
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jpa_3.0_spec</artifactId>
+            <version>${geronimo.version}</version>
+        </dependency>
+
+        <!-- ${GAE_HOME}/lib/user/orm -->
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jta_1.1_spec</artifactId>
+            <version>${geronimo.version}</version>
+        </dependency>
+
+        <!-- ${GAE_HOME}/lib/user/orm -->
+        <dependency>
+            <groupId>javax.jdo</groupId>
+            <artifactId>jdo2-api</artifactId>
+            <version>${jdo2.api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.7</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>${jarMainClass}</mainClass>
+                            <packageName>${groupId}</packageName>
+                            <addClasspath>true</addClasspath>
+                        </manifest>
+                        <manifestEntries>
+                            <mode>development</mode>
+                        </manifestEntries>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

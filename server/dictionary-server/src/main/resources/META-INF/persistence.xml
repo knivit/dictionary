@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+        http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" version="1.0">
+
+    <persistence-unit name="dictionary">
+        <provider>org.datanucleus.store.appengine.jpa.DatastorePersistenceProvider</provider>
+
+        <!-- http://www.datanucleus.org/products/accessplatform_1_0/persistence_properties.html -->
+        <properties>
+            <property name="datanucleus.NontransactionalRead" value="true"/>
+            <property name="datanucleus.NontransactionalWrite" value="true"/>
+            <property name="datanucleus.Optimistic" value="true"/>
+            <property name="datanucleus.ServerTimeZoneID" value="GMT"/>
+            <property name="datanucleus.Multithreaded" value="true"/>
+            <property name="datanucleus.ConnectionURL" value="appengine"/>
+        </properties>
+
+        <class>com.tsoft.dictionary.server.app.service.model.PO</class>
+        <class>com.tsoft.dictionary.server.app.service.model.IdPO</class>
+        <class>com.tsoft.dictionary.server.app.service.model.UserPO</class>
+        <class>com.tsoft.dictionary.server.app.service.dictionary.DictionaryInfoPO</class>
+        <class>com.tsoft.dictionary.server.app.service.wordtrainer.WordTrainerInfoPO</class>
+        <class>com.tsoft.dictionary.server.app.service.library.BookPO</class>
+        <class>com.tsoft.dictionary.server.app.service.library.OpenBookPO</class>
+        <class>com.tsoft.dictionary.server.app.service.library.LibraryInfoPO</class>
+    </persistence-unit>
+</persistence>

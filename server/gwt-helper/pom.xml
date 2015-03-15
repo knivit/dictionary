@@ -1,0 +1,83 @@
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.tsoft.dictionary</groupId>
+        <artifactId>server-parent-pom</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.tsoft.gwt.development</groupId>
+    <artifactId>GWTHelper</artifactId>
+    <packaging>jar</packaging>
+
+    <name>dictionary-gwt-helper</name>
+
+    <properties>
+        <datanucleus.enhancer.version>1.1.4</datanucleus.enhancer.version>
+
+        <jarMainClass>com.tsoft.gwt.development.GWTHelper</jarMainClass>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.tsoft.dictionary</groupId>
+            <artifactId>dictionary-util</artifactId>
+            <version>${version}</version>
+        </dependency>
+
+        <!-- Java Source Code Parser (JavaDoc) -->
+        <dependency>
+            <groupId>com.thoughtworks.qdox</groupId>
+            <artifactId>qdox</artifactId>
+            <version>1.10</version>
+        </dependency>
+
+        <!-- Java Compiler libraries -->
+        <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-utils</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+
+        <!-- Java Compiler libraries -->
+        <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-compiler-api</artifactId>
+            <version>1.6</version>
+        </dependency>
+
+        <!-- ${GAE_HOME}/lib/user/orm -->
+        <dependency>
+            <groupId>org.datanucleus</groupId>
+            <artifactId>datanucleus-core</artifactId>
+            <version>${datanucleus.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.transaction</groupId>
+                    <artifactId>transaction-api</artifactId>
+                </exclusion>
+            </exclusions>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- ${GAE_HOME}/lib/user/orm -->
+        <dependency>
+            <groupId>javax.jdo</groupId>
+            <artifactId>jdo2-api</artifactId>
+            <version>${jdo2.api.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- ${GAE_HOME}/tools/orm -->
+        <dependency>
+            <groupId>org.datanucleus</groupId>
+            <artifactId>datanucleus-enhancer</artifactId>
+            <version>${datanucleus.enhancer.version}</version>
+        </dependency>
+    </dependencies>
+</project>

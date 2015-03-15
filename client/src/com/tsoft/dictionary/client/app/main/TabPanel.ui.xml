@@ -1,0 +1,101 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+  xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:d='urn:import:com.tsoft.dictionary.client.app.main'>
+
+  <ui:image field="wordTrainerTabLogo" src="word_trainer_tab.png"></ui:image>
+  <ui:image field="dictionaryTabLogo" src="dictionary_tab.png"></ui:image>
+  <ui:image field="tutorialsTabLogo" src="tutorials_tab.png"></ui:image>
+  <ui:image field="libraryTabLogo" src="library_tab.png"></ui:image>
+  <ui:image field="settingsTabLogo" src="settings_tab.png"></ui:image>
+
+  <ui:style>
+    .tab {
+      height: 100%;
+      cursor: pointer;
+      font-weight: bold;
+      border-top: 1px solid #666;
+      border-left: 1px solid #999;
+      border-right: 1px solid #666;
+      vertical-align: middle;
+    }
+
+    @sprite .wordTrainerTab { gwt-image: "wordTrainerTabLogo"; }
+    @sprite .dictionaryTab { gwt-image: "dictionaryTabLogo"; }
+    @sprite .tutorialsTab { gwt-image: "tutorialsTabLogo"; }
+    @sprite .libraryTab { gwt-image: "libraryTabLogo"; }
+    @sprite .settingsTab { gwt-image: "settingsTabLogo"; }
+
+    .left {
+      float: left;
+    }
+  </ui:style>
+
+  <g:TabLayoutPanel ui:field="tabPanel" barUnit="EX" barHeight="7">
+    <g:tab>
+        <g:header>
+          <div class="{style.tab}">
+            <span class="{style.wordTrainerTab} {style.left}"></span>
+            <span>Word Trainer</span>
+          </div>
+        </g:header>
+
+        <g:HTMLPanel ui:field='wordTrainerTab'>
+            <div id="wordTrainerPanel"/>
+        </g:HTMLPanel>
+    </g:tab>
+
+    <g:tab>
+        <g:header>
+          <div class="{style.tab}">
+            <span class="{style.dictionaryTab} {style.left}"></span>
+            <span>Dictionary</span>
+          </div>
+        </g:header>
+
+        <g:HTMLPanel ui:field='dictionaryTab'>
+            <div id="dictionaryPanel"/>
+        </g:HTMLPanel>
+    </g:tab>
+
+    <g:tab>
+        <g:header>
+          <div class="{style.tab}">
+            <span class="{style.tutorialsTab} {style.left}"></span>
+            <span>Tutorials</span>
+          </div>
+        </g:header>
+
+        <g:HTMLPanel ui:field='tutorialsTab'>
+            <div id="tutorialsPanel"/>
+        </g:HTMLPanel>
+    </g:tab>
+
+    <g:tab>
+        <g:header>
+          <div class="{style.tab}">
+            <span class="{style.libraryTab} {style.left}"></span>
+            <span>Library</span>
+          </div>
+        </g:header>
+
+        <g:HTMLPanel ui:field='libraryTab'>
+            <div id="libraryPanel"/>
+        </g:HTMLPanel>
+    </g:tab>
+
+    <g:tab>
+        <g:header>
+          <div class="{style.tab}">
+            <span class="{style.tutorialsTab} {style.left}"></span>
+            <span>Settings</span>
+          </div>
+        </g:header>
+
+        <g:HTMLPanel ui:field='settingsTab'>
+            <div id="settingsPanel"/>
+        </g:HTMLPanel>
+    </g:tab>
+  </g:TabLayoutPanel>
+</ui:UiBinder>

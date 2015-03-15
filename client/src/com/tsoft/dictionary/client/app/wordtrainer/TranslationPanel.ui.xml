@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+  xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:d='urn:import:com.tsoft.dictionary.client.app.wordtrainer'>
+
+  <ui:style>
+  .panel {
+    padding: 10px;
+  }
+  </ui:style>
+
+  <g:HTMLPanel styleName='{style.panel}'>
+    <div>
+      <b>Type your translation here</b>
+    </div>
+
+    <div>
+      <table>
+        <tr>
+          <td>
+            <g:TextBox ui:field='translationText'></g:TextBox>
+          </td>
+          <td>
+            <g:Button text='Check' ui:field='checkButton'/>
+            &nbsp;
+            <g:Button text='Tip' ui:field='tipButton'/>
+            &nbsp;
+            <g:Button text='Next' ui:field='nextButton'/>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </g:HTMLPanel>
+</ui:UiBinder>

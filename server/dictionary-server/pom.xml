@@ -1,0 +1,141 @@
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.tsoft.dictionary</groupId>
+        <artifactId>server-parent-pom</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>dictionary-server</artifactId>
+    <packaging>jar</packaging>
+
+    <name>dictionary-server</name>
+
+    <properties>
+        <client.jar.fileName>${artifactId}-${version}-client.jar</client.jar.fileName>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>dictionary-api</artifactId>
+            <version>${version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.tsoft.gwt.development</groupId>
+            <artifactId>GWTHelper</artifactId>
+            <version>${version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- run GWTHelper to create the GWT async-interfaces and copy gwt-client java source files -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.1.1</version>
+                <executions>
+                    <execution>
+                        <phase>process-classes</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <executable>java</executable>
+                    <arguments>
+                        <argument>-Djdk.home=${java.home}</argument>
+                        <argument>-classpath</argument><classpath/>
+
+                        <!-- main class -->
+                        <argument>com.tsoft.gwt.development.GWTHelper</argument>
+
+                        <!-- working properties -->
+                        <argument>${project.build.sourceDirectory}</argument>
+                        <argument>${project.build.directory}</argument>
+                        <argument>com.tsoft.dictionary.server.app.GWTClient</argument>
+                        <argument>${basedir}/src/main/resources</argument>
+                        <argument>com.tsoft.dictionary.Server</argument>
+                        <argument>${client.jar.fileName}</argument>
+
+                        <!-- classes for generation their Async interfaces -->
+                        <argument>-async</argument>
+                        <argument>**/*Interface.java</argument>
+
+                        <!-- classes for using on gwt-client side -->
+                        <argument>-client</argument>
+                        <argument>**/*TO.java</argument>
+                        <argument>**/com/tsoft/dictionary/server/app/UserInfo.java</argument>
+                        <argument>**/com/tsoft/dictionary/server/util/StringHelper.java</argument>
+                        <argument>**/com/tsoft/dictionary/server/app/web/model/HasSize.java</argument>
+
+                        <argument>-datanucleus-enhancer-classes</argument>
+                        <argument>${basedir}/src/main/resources/META-INF/persistence.xml</argument>
+
+                        <argument>-datanucleus-enhancer-properties</argument>
+                        <argument>jdkLogConfiguration:${basedir}/enhancer-log.properties</argument>
+                    </arguments>
+                </configuration>
+            </plugin>
+
+            <!-- install the builded gwt-client jar to the local maven repository for the client usage -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-artifacts</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>attach-artifact</goal>
+                        </goals>
+                        <configuration>
+                            <artifacts>
+                                <artifact>
+                                    <file>target/${client.jar.fileName}</file>
+                                    <type>jar</type>
+                                    <classifier>client</classifier>
+                                </artifact>
+                            </artifacts>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- copy the server and gwt-client jars to the exploded main WEB project -->
+            <!-- this prevents from running time consuming GWT compilation during the web app developing -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>../../client/target/dictionary-war-${version}/WEB-INF/lib</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>target</directory>
+                                    <includes>
+                                        <include>*.jar</include>
+                                    </includes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

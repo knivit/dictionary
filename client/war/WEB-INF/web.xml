@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <listener>
+        <listener-class>com.tsoft.dictionary.server.context.WebApplicationInitializer</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>com.tsoft.dictionary.server.app.web.login.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/dictionary/login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>wordTrainerServlet</servlet-name>
+        <servlet-class>com.tsoft.dictionary.server.app.web.wordtrainer.WordTrainerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wordTrainerServlet</servlet-name>
+        <url-pattern>/dictionary/wordTrainer</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>dictionaryServlet</servlet-name>
+        <servlet-class>com.tsoft.dictionary.server.app.web.dictionary.DictionaryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dictionaryServlet</servlet-name>
+        <url-pattern>/dictionary/dictionary</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>contentServlet</servlet-name>
+        <servlet-class>com.tsoft.dictionary.server.app.web.content.ContentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>contentServlet</servlet-name>
+        <url-pattern>/dictionary/content</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>tutorialServlet</servlet-name>
+        <servlet-class>com.tsoft.dictionary.server.app.web.tutorial.TutorialServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>tutorialServlet</servlet-name>
+        <url-pattern>/dictionary/tutorial</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>libraryServlet</servlet-name>
+        <servlet-class>com.tsoft.dictionary.server.app.web.library.LibraryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>libraryServlet</servlet-name>
+        <url-pattern>/dictionary/library</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>gwt-log-remote-logger-servlet</servlet-name>
+        <servlet-class>com.allen_sauer.gwt.log.server.RemoteLoggerServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>gwt-log-remote-logger-servlet</servlet-name>
+        <url-pattern>/dictionary/gwt-log</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <welcome-file-list>
+        <welcome-file>dictionary.html</welcome-file>
+    </welcome-file-list>
+</web-app>

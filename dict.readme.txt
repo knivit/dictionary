@@ -1,0 +1,30 @@
+English Dictionary project
+
+Build and Run
+1. Build the project
+   mvn clean package
+2. Run the program
+   java -jar dict-1.0.jar
+
+Scenario
+1. Select a random word from DB
+2. Show his translation to an user
+3. Show five random words to user
+4. User should to input a original word
+5. User interface like http://actvoc.narod.ru/
+
+Add a page with usefull links:
+1. http://www.gutenberg.org/browse/scores/top - online free ebook library
+2. http://www.bkc.ru/test/english.html - a free online test
+3. http://ogden.basic-english.org/words.html - 850 basic english words
+4. http://www.bbc.co.uk/worldservice/science/2009/03/000000_discovery.shtml - online radio
+
+Dictionaries 
+1. DSL format
+   http://traduko.lib.ru/ru_en_smirnitsky.html (http://traduko.lib.ru/dics/Ru-En-Smirnitsky.12-11-2004.dsl.rar)
+2. TXT format
+   http://bxmemo.narod.ru/index.html
+
+Dictionaries in DZ:GZ format
+1. Linux utilitu to unzip DZ file: dictunzip (StarDict)
+

@@ -1,0 +1,38 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+  xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:d='urn:import:com.tsoft.dictionary.client.app.dictionary'>
+
+  <ui:style>
+  .textArea {
+    width: 100%;
+  }
+  </ui:style>
+
+  <g:HTMLPanel>
+    <div>
+      <b>Word</b>
+    </div>
+
+    <table>
+      <tr>
+        <td>
+          <g:TextBox ui:field='wordText'></g:TextBox>
+        </td>
+
+        <td>
+          <g:Button text='Translate' ui:field='translateButton'/>
+        </td>
+      </tr>
+    </table>
+
+    <div>
+      <b>Translation</b>
+    </div>
+
+    <div styleName='{style.textArea}'>
+      <g:TextArea ui:field='translationTextArea' readOnly='true' visibleLines='8' styleName='{style.textArea}'/>
+    </div>
+  </g:HTMLPanel>
+</ui:UiBinder>

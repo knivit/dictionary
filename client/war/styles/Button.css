@@ -1,0 +1,24 @@
+.gwt-Button {
+  margin: 0;
+  text-decoration: none;
+  font-size: small;
+  cursor: pointer;
+  background: url("images/hborder.png") repeat-x 0px -27px;
+  border: 1px outset #ccc;
+}
+.gwt-Button-margin-left {
+  margin-left: 10px;
+}
+.gwt-Button:active {
+  border: 1px inset #ccc;
+}
+.gwt-Button:hover {
+  border-color: #9cf #69e #69e #7af;
+}
+.gwt-Button[disabled] {
+  cursor: default;
+  color: #888;
+}
+.gwt-Button[disabled]:hover {
+  border: 1px outset #ccc;
+}

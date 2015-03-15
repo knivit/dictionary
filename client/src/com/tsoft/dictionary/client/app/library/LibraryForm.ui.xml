@@ -1,0 +1,16 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+    xmlns:ui='urn:ui:com.google.gwt.uibinder'
+    xmlns:g='urn:import:com.google.gwt.user.client.ui'
+    xmlns:d='urn:import:com.tsoft.dictionary.client.app.library'>
+
+    <g:DockLayoutPanel unit='EM'>
+        <g:north size='5'>
+            <d:FilterPanel ui:field='filterPanel'/>
+        </g:north>
+
+        <g:center>
+            <d:BookListPanel ui:field='bookListPanel'/>
+        </g:center>
+    </g:DockLayoutPanel>
+</ui:UiBinder>

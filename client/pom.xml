@@ -1,0 +1,103 @@
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.tsoft.dictionary</groupId>
+        <artifactId>dictionary</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>dictionary-war</artifactId>
+    <packaging>war</packaging>
+
+    <name>dictionary-war</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>dictionary-server</artifactId>
+            <classifier>client</classifier>
+            <version>${version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>dictionary-server</artifactId>
+            <version>${version}</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- ${GWT_HOME} -->
+        <dependency>
+            <groupId>com.google.gwt</groupId>
+            <artifactId>gwt-user</artifactId>
+            <version>${gwt.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- a logger for GWT -->
+        <dependency>
+            <groupId>com.google.code.gwt-log</groupId>
+            <artifactId>gwt-log</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
+
+        <plugins>
+            <!-- GWT compiler -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>gwt-maven-plugin</artifactId>
+                <version>1.2-SNAPSHOT</version>
+                <configuration>
+                    <disableCastChecking>true</disableCastChecking>
+                    <disableClassMetadata>true</disableClassMetadata>
+                    <runTarget>dictionary.html</runTarget>
+                    <extraJvmArgs>${gwt.debug}</extraJvmArgs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <warSourceDirectory>war</warSourceDirectory>
+                    <warName>dictionary</warName>
+                </configuration>
+            </plugin>
+
+            <!-- Clear folders after gwt:run (embedded server) usage -->
+            <plugin>
+                <artifactId>maven-clean-plugin</artifactId>
+                <configuration>
+                    <filesets>
+                        <fileset>
+                            <directory>${basedir}/war/dictionary</directory>
+                        </fileset>
+                        <fileset>
+                            <directory>${basedir}/war/WEB-INF/classes</directory>
+                        </fileset>
+                        <fileset>
+                            <directory>${basedir}/war/WEB-INF/lib</directory>
+                        </fileset>
+                    </filesets>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+    xmlns:ui='urn:ui:com.google.gwt.uibinder'
+    xmlns:g='urn:import:com.google.gwt.user.client.ui'
+    xmlns:d='urn:import:com.tsoft.dictionary.client.app.wordtrainer.settings'>
+
+    <g:VerticalPanel>
+        <g:TextBox ui:field='hintCountField'/>
+        <g:ListBox ui:field='dictionaryBox'/>
+        <g:Button text='Refresh' ui:field='refreshButton'/>
+        <g:CheckBox text='Reverse&nbsp;translation' ui:field='needReverseField'/>
+    </g:VerticalPanel>
+</ui:UiBinder>

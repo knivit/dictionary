@@ -1,0 +1,43 @@
+body, table td, select {
+  font-family: Arial, sans-serif;
+  font-size: small;
+}
+
+pre {
+  font-family: "courier new", courier;
+  font-size: small;
+}
+
+body {
+  color: black;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  background: #fff;
+  direction: ltr;
+}
+
+a, a:visited, a:hover {
+  color: #0000AA;
+}
+
+.gwt-Reference-standard {
+  height: 5px;
+  width: 5px;
+}
+
+.gwt-Hyperlink {
+}
+
+.gwt-Image {
+}
+
+.gwt-Label {
+}
+
+.gwt-Separator {
+}
+
+.gwt-Separator-spring {
+    width: 100%;
+}

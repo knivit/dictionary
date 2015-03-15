@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="dictionary">
+    <inherits name="com.google.gwt.user.User"/>
+
+    <!-- For development a default of `DEBUG` is recommended -->
+    <inherits name="com.allen_sauer.gwt.log.gwt-log-DEBUG"/>
+    <set-property name="log_FirebugLogger" value="ENABLED"/>
+    <set-property name="log_WindowLogger" value="DISABLED"/>
+    <set-property name="log_ConsoleLogger" value="DISABLED"/>
+    <set-property name="log_DivLogger" value="DISABLED"/>
+    <set-property name="log_GWTLogger" value="DISABLED"/>
+    <set-property name="log_SystemLogger" value="DISABLED"/>
+    <set-property name="log_RemoteLogger" value="ENABLED"/>
+    <set-configuration-property name="log_pattern" value="%d [%-5p] %m%n" />
+
+    <inherits name="com.tsoft.dictionary.Server"/>
+
+    <entry-point class="com.tsoft.dictionary.client.Main"/>
+</module>

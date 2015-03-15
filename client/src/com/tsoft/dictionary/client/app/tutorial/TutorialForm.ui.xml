@@ -1,0 +1,22 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+    xmlns:ui='urn:ui:com.google.gwt.uibinder'
+    xmlns:g='urn:import:com.google.gwt.user.client.ui'
+    xmlns:d='urn:import:com.tsoft.dictionary.client.app.tutorial'>
+
+    <g:DockLayoutPanel unit='EM'>
+      <g:center>
+        <g:SplitLayoutPanel>
+          <g:west size='300'>
+            <d:GlossaryPanel ui:field='glossaryPanel' />
+          </g:west>
+
+          <g:center>
+            <g:ScrollPanel>
+              <d:TextPanel ui:field='textPanel' />
+            </g:ScrollPanel>
+          </g:center>
+        </g:SplitLayoutPanel>
+      </g:center>
+    </g:DockLayoutPanel>
+</ui:UiBinder>

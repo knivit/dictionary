@@ -1,0 +1,11 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+  xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:d='urn:import:com.tsoft.dictionary.client.app.tutorial'
+  xmlns:dw='urn:import:com.tsoft.dictionary.client.widget'>
+
+  <g:HTMLPanel>
+    <dw:HtmlPage ui:field='page'/>
+  </g:HTMLPanel>
+</ui:UiBinder>

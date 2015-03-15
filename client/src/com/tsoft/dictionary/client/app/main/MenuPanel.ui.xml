@@ -1,0 +1,69 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+  xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:d='urn:import:com.tsoft.dictionary.client.app.main'>
+
+  <ui:image field='logo' src='logo.png'/>
+
+  <ui:style>
+  .titleDiv {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .statusDiv {
+    font-weight: bold;
+    text-align: center;
+    margin: 1em;
+  }
+
+  .linksDiv {
+  }
+
+  @sprite .logo {
+    gwt-image: 'logo';
+    position: absolute;
+    left: 8px;
+    top: 8px;
+  }
+  </ui:style>
+
+  <g:HTMLPanel>
+    <table>
+      <tr>
+        <td>
+          <div class='{style.logo}'/>
+        </td>
+
+        <td width="100%">
+          <div class="{style.titleDiv}">
+            <b>Language Trainer</b>
+          </div>
+        </td>
+
+        <td>
+          <div class="{style.statusDiv}">
+            <g:HTML ui:field='userName'></g:HTML>
+          </div>
+
+          <div class='{style.linksDiv}'>
+            <table>
+              <tr>
+                <td>
+                  <g:Anchor href='javascript:;' ui:field='logInLink'>Log&nbsp;In</g:Anchor>
+                </td>
+                <td>
+                  <g:Anchor href='javascript:;' ui:field='logOutLink'>Log&nbsp;Out</g:Anchor>
+                </td>
+                <td>
+                  <g:Anchor href='javascript:;' ui:field='aboutLink'>About</g:Anchor>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </g:HTMLPanel>
+</ui:UiBinder>

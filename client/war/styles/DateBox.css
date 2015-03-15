@@ -1,0 +1,10 @@
+.gwt-DateBox input {
+  width: 8em;
+}
+
+.dateBoxFormatError {
+  background: #ffcccc;
+}
+
+.dateBoxPopup {
+}

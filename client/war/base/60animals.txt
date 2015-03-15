@@ -1,0 +1,66 @@
+animal|животное|'xnImql
+ape|человекообразна€ обезь€на|eIp
+bird|птица|bq:d
+black bass|окунь|'blxk'bxs
+boar|боров|bO:
+calf|теленок|kQ:f
+camel|верблюд|'kxmql
+cat|кошка|kxt
+chameleon|хамелеон|kq'mi:ljqn
+cobra|кобра|'kqubrq
+cod|треска|kOd
+cow|корова|kau
+crab|краб|krxb
+crayfish|речной рак|'kreIfIS
+crocodile|крокодил|'krOkqdaIl
+crow|ворона|krqu
+dog|собака|dOg
+dolphin|дельфин|'dOlfIn
+duck|утка|dAk
+eel|угорь|i:l
+elephant|слон|'elIfqnt
+fish|рыба|fIS
+flamingo|фламинго|flq'mINgqu
+frog|л€гушка|frOg
+giraffe|жираф|dZI'rQ:f
+goat|коза|gqut
+goose|гусь|gu:s
+hen|курица|hen
+horse|лошадь|hO:s
+hummingbird|колибри|'hAmINbq:d
+jay|сойка|dZeI
+kangaroo|кенгуру|,kxNgq'ru:
+lamb|€гненок|lxm
+lion|лев|'laIqn
+lizard|€щерица|'lIzqd
+lobster|омар|'lObstq
+monkey|обезь€на|'mANkI
+nightingale|соловей|'naItINgeIl
+ostrich|страус|'OstrItS
+owl|сова|aul
+ox|бык|Oks
+parrot|попугай|'pxrqt
+peacock|павлин|'pi:kOk
+pike|щука|paIk
+plaice|камбала|pleIs
+prawn|креветка|prO:n
+rattlesnake|гремуча€ зме€|'rxtlsneIk
+rhinoceros|носорог|raI'nOsqrqs
+robin|дрозд|'rObIn
+rooster|петух|'ru:stq
+salamander|саламандра|'sxlq,mxndq
+scampi|норвежский омар|'skxmpI
+shark|акула|SQ:k
+sheep|овца|Si:p
+sow|свинь€ (самка)|squ
+stork|аист|stO:k
+swallow|ласточка|'swOlqu
+swine|свинь€|swaIn
+swordfish|рыба-меч|'sO:dfIS
+tadpole|головастик|'txdpqul
+toad|жаба|tqud
+trout|форель|traut
+tuna|тунец|'tu:nq
+turkey|индюк|'tq:kI
+turtle|черепаха|'tq:tl
+whale|кит|weIl

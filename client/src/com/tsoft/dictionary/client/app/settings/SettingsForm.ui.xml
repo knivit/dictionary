@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+    xmlns:ui='urn:ui:com.google.gwt.uibinder'
+    xmlns:g='urn:import:com.google.gwt.user.client.ui'
+    xmlns:d='urn:import:com.tsoft.dictionary.client.app.settings'>
+
+    <g:DockLayoutPanel unit='EM'>
+        <g:north size='5'>
+            <g:HTMLPanel>
+              <b>Settings</b>
+            </g:HTMLPanel>
+        </g:north>
+
+        <g:center>
+            <g:HTMLPanel/>
+        </g:center>
+    </g:DockLayoutPanel>
+</ui:UiBinder>

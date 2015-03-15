@@ -1,0 +1,7 @@
+.gwt-TextArea {
+  padding: 2px;
+}
+
+.gwt-TextArea-readonly {
+  color: #888;
+}
